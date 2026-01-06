@@ -20,6 +20,13 @@ const projects = [
     live: "#",
   },
   {
+    title: "v1-abdulrazaq.dev",
+    description: "My Portfolio Website",
+    tech: ["React", "JavaScript", "Tailwind CSS"],
+    github: "https://github.com/AbdulrazaqYusuf01/v1-abdulrazaq.dev",
+    live: "https://v1-abdulrazaqdev.netlify.app/",
+  },
+  {
     title: "MonsuratHeavenly - Customer Booking Platform",
     description:
       "Customer-facing reservation system for hotel bookings with secure authentication using NextAuth (Google and GitHub providers). Built end-to-end booking flows with real-time data handling and REST API consumption. Deployed and maintained a production-ready Next.js application.",
@@ -258,7 +265,7 @@ const HomePage = () => (
           <Mail size={24} />
         </a>
         <a
-          href="https://github.com/imykie"
+          href="https://github.com/AbdulrazaqYusuf01"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-white transition-colors"
